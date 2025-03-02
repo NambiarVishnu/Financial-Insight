@@ -1,6 +1,6 @@
-# BankDataScraper
+# Financial Insight
 
-This SpringBoot app coverts a Bank statement (pdf) file into Excel and extracts the data.
+This SpringBoot app coverts a Bank statement (pdf) file into Excel and extracts the data and summarize it.
 
 # Installation
 ### Prerequisites
@@ -16,12 +16,12 @@ Clone the repository
 
 
 ```bash
-  git clone https://github.com/NambiarVishnu/bank-data-scraper.git
+  git clone https://github.com/NambiarVishnu/Financial-Insight.git
 
 ```
 Navigate to the project directory:
 ```bash
- cd bank-data-scraper
+ cd Financial-Insight
 
 ```
 
@@ -40,33 +40,4 @@ Build the project using Maven:
 - Maven: For dependency management and build automation
 - Docker : For containerization
 
-## API Reference
 
-####  Upload-Statement-v1
-
-```http
-  POST /v1/tx-details/upload-statement
-```
-
-| Parameter | Type            | Description    |
-|:----------|:----------------|:---------------|
-| `file`    | `multipartfile` | **Required**.  |
-
-
-
-
-
-#### Upload-Statement-v2
-
-```http
-  POST /v2/tx-details/upload-statement
-```
-
-| Parameter | Type            | Description    |
-|:----------|:----------------|:---------------|
-| `file`    | `multipartfile` | **Required**.  |
-| `header1` | `String`        | **Required**   |
-| `header2` | `String`        | **Required**   |
-
-## API RESPONSE
-The response will contain the extracted data in JSON format(or Excel file will be saved in the local storage).
