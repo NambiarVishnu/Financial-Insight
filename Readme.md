@@ -34,7 +34,8 @@ Build the project using Maven:
 ## Technologies Used
 
 - Java 17: The core programming language
-- Spring Boot: For building the application
+- Spring Boot: For building the backend
+- React - For building the frontend
 - Aspose Pdf: Converting PDF to Excel
 - Apache POI: For handling Excel operations
 - Maven: For dependency management and build automation
