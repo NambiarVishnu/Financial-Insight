@@ -5,32 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbe7e83f-7880-44ae-b190-c9a37c482938" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Controller/RegistrationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Service/CustomUserDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Service/UserRegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/jwt/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/jwt/JwtTokenProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/model/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/repository/UserInfoRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/response/RegistrationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Controller/Transaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Controller/TransactionDetails.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Controller/TransactionExtractorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Service/ConvertFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Service/TransactionExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Service/TransactionSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Service/TransactionSave2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/model/BankData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/model/BankData2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/repository/BankDataRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/repository/BankDataRepository2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/Controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/Controller/TransactionExtractorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/Service/ConvertFileService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/Service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/Service/TransactionExtractor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/Service/TransactionSave.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/Service/TransactionSave2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/model/BankData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/model/BankData2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/repository/BankDataRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/repository/BankDataRepository2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/ExtractTransactionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/ExtractTransactionApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Service/ConvertFileService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Service/TransactionExtractor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Service/TransactionSave.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Service/TransactionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Service/convert.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/model/BankData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/model/BankData2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/repository/BankDataRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/repository/BankDataRepository2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Service/UserRegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/Service/UserRegisterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/model/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/model/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/repository/UserInfoRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/NetWorth/Transaction/repository/UserInfoRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/ExtractTransactionApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/ExtractTransactionApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/Service/UserRegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/Service/UserRegisterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/model/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/model/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/repository/UserInfoRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/NetWorth/Transaction/repository/UserInfoRepo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +83,7 @@
     &quot;Application.ExtractTransactionApplication.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;release&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
@@ -84,6 +93,27 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="Financial-Insight" type="Application" factoryName="Application">
+      <envs>
+        <env name="spring.datasource.password" value="Vishnu@2002" />
+        <env name="jwt.secret" value="5fe1a3df7efa4d61e93176c03e79c0842142e81f880c7d4c27b23e4b490acc3b0b6e5c92d9a89c9c591a114588666e7637e035de167ad9f9432b23b910e13111" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.NetWorth.Transaction.ExtractTransactionApplication" />
+      <module name="transaction" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="FinanceInsight" />
       <method v="2">
